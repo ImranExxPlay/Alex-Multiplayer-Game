@@ -11,6 +11,8 @@ config_version=5
 [application]
 
 config/name="Alex Mp Game"
+config/tags=PackedStringArray("alexmultiplayergame", "freelance")
+run/main_scene="res://server/server.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
